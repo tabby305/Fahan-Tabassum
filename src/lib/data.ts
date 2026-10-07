@@ -22,7 +22,8 @@ export const education = {
 export const skillGroups: { label: string; skills: string[] }[] = [
   { label: "Languages", skills: ["Python", "JavaScript", "SQL"] },
   { label: "Web", skills: ["HTML", "CSS", "React"] },
-  { label: "Tools", skills: ["Git", "GitHub", "Microsoft Office"] },
+  { label: "AI", skills: ["OpenCode"] },
+  { label: "Tools", skills: ["Git", "GitHub", "VS Code", "Microsoft Office"] },
 ];
 
 export type Project = {
